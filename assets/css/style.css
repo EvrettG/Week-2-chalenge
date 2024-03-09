@@ -1,0 +1,20 @@
+:root{
+
+}
+
+.avatar {
+    width: 5%;
+    height: 9%;
+    margin: 10px auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+header {
+    display: inline ;
+    text-align: left;
+}
+
+span{
+    
+}
