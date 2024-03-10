@@ -2,19 +2,51 @@
 
 }
 
+*{
+    background-color: lightgray;
+}
+
 .avatar {
-    width: 5%;
-    height: 9%;
-    margin: 10px auto;
+    width: 80px;
+    height: 80px;
+    margin: 30px right;
     object-fit: cover;
     border-radius: 12px;
+    left: 20px;
 }
-
-header {
-    display: inline ;
-    text-align: left;
-}
-
-span{
+.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 600px;
+    border: 3px solid #73AD21;
+    justify-content: center;
     
+}
+
+header{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+h1{
+    position: absolute;
+    top: 45px;
+    left: 120px;
+    font-size: 26px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
 }
