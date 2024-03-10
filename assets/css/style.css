@@ -36,17 +36,9 @@ h1{
     font-size: 26px;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
 li{
     float: inline-end;
     display: block;
-    justify-content: left;
     padding: 20px;
 }
 li:hover{
@@ -59,7 +51,8 @@ h2{
 }
 
 p{
-    border-left: 3px solid blue;
+   
+    font-size: 18px;
 }
 
 /* colimn Formatting */
@@ -71,15 +64,98 @@ p{
 }
 
 .left{
-    width: 15%;
+    width: 20%;
 }
 
 .right{
-    width: 85%;
+    width: 80%;
+    border-left: 3px solid blue;
 }
+
 
 .row:after{
     content: "";
     display: table;
     clear: both;
+}
+
+/* skills section start */
+.git {
+    width: 75%; background-color: orange;
+}
+
+.html {
+    width: 80%; background-color: #04AA6D;
+}
+
+.css {
+    width: 65%; background-color: #2196F3;
+}
+
+.js {
+    width: 15%; background-color: red;
+}
+
+.container{
+    width: 95%;
+    background-color: #ddd;
+    justify-content:end;
+}
+  
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+/* skills section end */
+
+/* apps section */
+
+.test{
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.first{
+    flex-direction: column;
+}
+
+.sample{
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+}
+
+
+.project{
+    display: flex ;
+}
+
+
+
+footer{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    h1{
+        margin-top: 100px;
+    }
+    .avatar{
+        margin-top: 100px;
+    }
+    .column {
+      width: 100%;
+    }
 }
