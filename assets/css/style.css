@@ -16,10 +16,10 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 530px;
+    width: 520px;
     border: 3px solid #73AD21;
-    justify-content: center;
-    padding-right: 30px; 
+    /* justify-content: center; */
+    padding-right: 30px;
 }
 
 header{
@@ -53,6 +53,33 @@ li:hover{
     background-color: darkgray;
 }
 
-section{
-    display: inline-block;
+h2{
+    width: 350px;
+    font-size: 24px;
+}
+
+p{
+    border-left: 3px solid blue;
+}
+
+/* colimn Formatting */
+
+.column{
+    float: left;
+    padding: 10px;
+    height: auto;
+}
+
+.left{
+    width: 15%;
+}
+
+.right{
+    width: 85%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
 }
