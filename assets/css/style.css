@@ -17,10 +17,9 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 484px;
-    /* border: 3px solid #73AD21; */
-    /* justify-content: center; */
-    /* padding-right: 30px; */
+    width: 385px;
+    /* 385px width without resume */
+    /* 484px Width with resume  */
 }
 
 header{
@@ -30,33 +29,12 @@ header{
     /* border: 3px solid #73AD21; */
 }
 
+/* Text formating */
 h1{
     position: absolute;
     top: 45px;
     left: 120px;
     font-size: 26px;
-}
-
-li.dad {
-    float: inline-end;
-    display: block;
-    padding: 20px;
-}
-
-li:hover.dad{
-    background-color: darkgray;
-}
-
-li:hover.dad a{
-    background-color: darkgrey;
-}
-
-li.dad a:link {
-    color: blue;
-}
-
-li.dad a:visited{
-    color: blue;
 }
 
 h2{
@@ -68,6 +46,34 @@ p{
    
     font-size: 18px;
 }
+
+/* End text formating */
+
+/* Menu formating */
+
+li.listmenu {
+    float: inline-end;
+    display: block;
+    padding: 20px;
+}
+
+li:hover.listmenu{
+    background-color: darkgray;
+}
+
+li:hover.listmenu a{
+    background-color: darkgrey;
+}
+
+li.listmenu a:link {
+    color: blue;
+}
+
+li.listmenu a:visited{
+    color: blue;
+}
+
+/* End menu formating */
 
 /* column Formatting */
 
@@ -167,10 +173,13 @@ p{
     object-fit: cover;
 }
 
-ul.resume{
-    display: inline-block;
-}
+/* end apps section */
 
+.contact{
+    padding: 5px;
+    margin-left: 20px;
+    list-style-type: disc;
+}
 
 footer{
     text-align: center;
