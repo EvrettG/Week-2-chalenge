@@ -3,7 +3,7 @@
 *{
     background-color: lightgray;
 }
-
+/* Picture of self details */
 .avatar {
     width: 80px;
     height: 80px;
@@ -11,15 +11,6 @@
     object-fit: cover;
     border-radius: 12px;
     left: 20px;
-}
-
-.menu{
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 385px;
-    /* 385px width without resume */
-    /* 484px Width with resume  */
 }
 
 header{
@@ -50,6 +41,13 @@ p{
 /* End text formating */
 
 /* Menu formating */
+
+.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: auto;
+}
 
 li.listmenu {
     float: inline-end;
@@ -113,7 +111,7 @@ li.listmenu a:visited{
 }
 
 .html {
-    width: 80%; background-color: #04AA6D;
+    width: 90%; background-color: #04AA6D;
 }
 
 .css {
@@ -121,7 +119,7 @@ li.listmenu a:visited{
 }
 
 .js {
-    width: 15%; background-color: red;
+    width: 30%; background-color: red;
 }
 
 .container{

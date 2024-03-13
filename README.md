@@ -3,7 +3,7 @@
 ## Description
 A template for a porfloio page for programing with replaceable elements.\
 Note: only first project links to external project, other projects are currently placeholders
-Note: additional elements for resume in code but currently unused
+Note: additional section for resume in code but currently unused
 
 ## Installation
 Copy github repository and replace elements that are marked in commments and replace avatar with picture of self named avatar. \
